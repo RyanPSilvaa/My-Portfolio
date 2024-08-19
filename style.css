@@ -107,6 +107,8 @@ span{
     border-radius: 50%;
 }
 .home-img img{
+    padding: 2px;
+    margin:10px;
     position: relative;
     top: 3rem;
     width: 32vw;
