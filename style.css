@@ -369,6 +369,7 @@ span{
     border-radius: 3rem;
     border: 5px solid transparent;
     cursor: pointer;
+    margin: 4rem;
     transition: 0.4s ease-in-out;
 }
 .service-box:hover{
