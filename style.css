@@ -72,6 +72,9 @@ section{
     min-height: 100vh;
     padding: 10rem 12% 10rem;
 }
+p{
+    text-align: justify;
+}
 .home{
     display: flex;
     align-items: center;
@@ -106,7 +109,7 @@ span{
 .home-img img{
     padding: 2px;
     margin:10px;
-    position: relative;
+    position: flex;
     top: 3rem;
     width: 32vw;
     border-radius: 50%;
@@ -180,9 +183,9 @@ span{
     color:black;
 }
 .text-animation{
-    font-size: 34px;
-    font-weight: 600;
-    min-width: 280px;
+    font-size: 30px;
+    font-weight: 550;
+    min-width: 240px;
 }
 .text-animation span{
     position: relative;
@@ -408,10 +411,10 @@ span{
     flex-direction: column;
 }
 .ilustracoes .heading{
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 .ilustracoes-box img{
-    width: 40rem;
+    width: 30rem;
     border-radius: 5%;
     border: 3px solid var(--main-color);
     box-shadow: 0 0 25px var(--main-color);
