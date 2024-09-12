@@ -14,14 +14,12 @@ window.onscroll = () => {
         if(top >= offset && top < offset + height){
             navLinks.forEach(links => {
                 links.classList.remove('active');
-                document.querrySelector('header nav a [href*=' + id+']').classlist.add('active')
+                document.querySelector('header nav a [href*=' + id+']').classlist.add('active')
             })
         }
     })
 }
-
-
 menuIcon.onclick = () => {
-    menuIcon.classList.toggle('bx-x');
-    navbar.classList.toggle('active');
+menuIcon.classList.toggle('bx-x');
+navbar.classList.toggle('active');
 }
