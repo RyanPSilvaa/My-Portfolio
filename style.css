@@ -72,6 +72,9 @@ section{
     min-height: 100vh;
     padding: 10rem 12% 10rem;
 }
+h1{
+    height: 20px;
+}
 p{
     text-align: justify;
 }
@@ -256,11 +259,11 @@ span{
     text-align: center;
     margin: 5rem 0;
 }
-.education{
+.educacao{
     padding: 100px 15px;
     background: var(--second-bg-color);
 }
-.education h2{
+.educacao h2{
     margin-bottom: 5rem;
 }
 .timeline-items{
@@ -345,21 +348,21 @@ span{
     background-color: var(--bg-color);
     width: 50px;
 }
-.services{
+.servicos{
     background: var(--bg-color);
     color: black;
 }
-.services h2{
+.servicos h2{
     margin-bottom: 5rem;
     color:white;
 }
-.sevices-container{
+.sevicos-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 2.5rem;
 }
-.service-box{
+.servicos-box{
     background-color: var(--main-color);
     height: 300;
     border-radius: 3rem;
@@ -368,13 +371,13 @@ span{
     margin: 4rem;
     transition: 0.4s ease-in-out;
 }
-.service-box:hover{
+.servicos-box:hover{
     background: white;
     color: black;
     border: 5px solid var(--main-color);
     transform: scale(1.03);
 }
-.service-box .service-info {
+.servicos-box .servicos-info {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -382,12 +385,12 @@ span{
     justify-content: left;
     padding: 5rem 5rem;
 }
-.service-info h4{
+.servicos-info h4{
     font-size: 3rem;
     font-weight: 800;
     line-height: 2;
 }
-.service-info p{
+.servicos-info p{
     font-size: 1.6rem;
     font-weight: 600;
     max-height: 200px;
@@ -396,6 +399,11 @@ span{
 }
 .ilustracoes{
     background-color: var(--second-bg-color);
+}
+.ilustracoes-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
 }
 .ilustracoes-box{
     background-size: cover;
@@ -412,11 +420,6 @@ span{
     border-radius: 5%;
     border: 3px solid var(--main-color);
     box-shadow: 0 0 25px var(--main-color);
-}
-.wrapper{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 3rem;
 }
 .ilustracoes-item{
     min-height: 550px;
@@ -440,14 +443,14 @@ span{
     transform: translateY(-10px)scale(1.03);
     box-shadow: 0 0 50px var(--main-color);
 }
-.contact{
+.contato{
     background-color: var(--bg-color);
 }
-.contact h2{
+.contato h2{
     margin-bottom: 3rem;
     color: white;
 }
-.contact form{
+.contato form{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -455,13 +458,13 @@ span{
     margin: 5rem auto;
     text-align: center;
 }
-.contact form .input-box{
+.contato form .input-box{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.contact form .input-box input,
-.contact form textarea{
+.contato form .input-box input,
+.contato form textarea{
     width: 100%;
     padding: 2.5rem;
     font-size: 1.8rem;
@@ -472,7 +475,7 @@ span{
     margin: 1.5rem 0;
     resize: none;
 }
-.contact form.btn{
+.contato form.btn{
     margin-top: 2rem;
 }
 .footer{
@@ -537,7 +540,7 @@ span{
     html{
         font-size: 55%;
     }
-    .sevices-container{
+    .sevicos-container{
         padding-bottom: 7rem;
         grid-template-columns: repeat(2,1fr);
         margin: 0 5rem;
@@ -567,7 +570,7 @@ span{
     .services{
         padding-bottom: 7rem;
     }
-    .ilustracoes .wrapper{
+    .ilustracoes .ilustracoes-container{
         grid-template-columns: repeat(1,1fr);
     }
     .contact form{
