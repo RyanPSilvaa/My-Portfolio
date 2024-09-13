@@ -73,7 +73,8 @@ section{
     padding: 10rem 12% 10rem;
 }
 h1{
-    height: 20px;
+    height: 30px;
+    font-size: 20px;
 }
 p{
     text-align: justify;
@@ -422,13 +423,13 @@ span{
     box-shadow: 0 0 25px var(--main-color);
 }
 .ilustracoes-item{
-    min-height: 550px;
-    max-width: 450px;
+    min-height: 500px;
+    max-width: 400px;
     background: rgba(0, 0, 0, 0.7);
     border: 3px solid var(--main-color);
     border-radius: 5%;
-    margin: 2rem 2rem;
-    padding: 30px 60px;
+    margin: 50px;
+    padding: 50px;
     cursor: pointer;
     display: flex;
     flex-direction: column;
