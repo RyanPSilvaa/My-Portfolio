@@ -217,6 +217,10 @@ span{
 }
 @keyframes words{
     0%,
+    5%{
+        content:"Desenvolvedor Web";
+    }
+    10%,
     20%{
         content:"Designer Gráfico";
     }
@@ -226,7 +230,7 @@ span{
     }
     41%,
     60%{
-        content:"Desenvolvedor Web";
+        content:"Web Designer";
     }
 }
 @keyframes typing{
@@ -394,8 +398,8 @@ span{
 .servicos-info p{
     font-size: 1.6rem;
     font-weight: 600;
-    max-height: 200px;
-    line-height: 1.7;
+    max-height: 300px;
+    line-height: 1.5rem;
     margin: auto;
 }
 .ilustracoes{
