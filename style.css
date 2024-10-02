@@ -217,19 +217,10 @@ span{
 }
 @keyframes words{
     0%,
-    5%{
-        content:"Desenvolvedor Web";
-    }
-    10%,
     20%{
+        content:"Desenvolvedor Web";
         content:"Designer Gráfico";
-    }
-    21%,
-    40%{
         content:"Ilustrador";
-    }
-    41%,
-    60%{
         content:"Web Designer";
     }
 }
