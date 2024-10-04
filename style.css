@@ -111,11 +111,12 @@ span{
     line-height: 1;
 }
 .home-img img{
+    height: auto;
+    width: 60%;
     padding: 0;
-    margin: 100px;
-    position: relative;
-    top: 5rem;
-    width: 50vh;
+    position: auto;
+    top: 50px;
+    max-width: 50vh;
     border-radius: 60%;
     border-style: none;
     box-shadow: 0 0 25px var(--main-color);
