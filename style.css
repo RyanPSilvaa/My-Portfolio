@@ -419,15 +419,15 @@ span{
     margin-bottom: 4rem;
 }
 .ilustracoes-box img{
-    height: 50rem;
-    width: 50rem;
+    height: 400px;
+    width: 400px;
     border-radius: 5%;
     border: 0px solid var(--main-color);
     box-shadow: 0 0 50px var(--main-color);
 }
 .ilustracoes-item{
     min-height: 400px;
-    max-width: 400px;
+    max-width: 600px;
     background: rgba(0, 0, 0, 0.7);
     border: 3px solid var(--main-color);
     border-radius: 5%;
