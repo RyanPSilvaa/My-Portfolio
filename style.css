@@ -410,19 +410,20 @@ span{
 .ilustracoes-box{
     background-size: cover;
     display:flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content:baseline;
-    flex-direction:column;
+    justify-content:center;
+    flex-direction:row;
 }
 .ilustracoes .heading{
     margin-bottom: 4rem;
 }
 .ilustracoes-box img{
-    height: 20rem;
-    width: 20rem;
+    height: 50rem;
+    width: 50rem;
     border-radius: 5%;
-    border: 3px solid var(--main-color);
-    box-shadow: 0 0 25px var(--main-color);
+    border: 0px solid var(--main-color);
+    box-shadow: 0 0 50px var(--main-color);
 }
 .ilustracoes-item{
     min-height: 400px;
